@@ -1,0 +1,38 @@
+﻿Build started 9/20/2015 3:38:23 AM.
+     1>Project "C:\Users\Charles\Desktop\C++ Projects\Projects\Bubbles\Bubbles\Bubbles.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Charles\Desktop\C++ Projects\Projects\Bubbles\Release\Bubbles.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib SDL2.lib SDL2main.lib SDL2test.lib glew32.lib glew32s.lib OpenAL32.lib OpenGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Charles\Desktop\C++ Projects\Projects\Bubbles\Release\Bubbles.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Charles\Desktop\C++ Projects\Projects\Bubbles\Release\Bubbles.lib" /MACHINE:X86 /SAFESEH Release\Display.obj
+         Release\Entities.obj
+         Release\Game.obj
+         Release\Input.obj
+         Release\Main.obj
+         Release\MainComponent.obj
+         Release\mathFunctions.obj
+         Release\Mesh.obj
+         Release\Shader.obj
+         Release\Sounds.obj
+         Release\Sprite.obj
+         Release\stb_image.obj
+         Release\Texture.obj
+         Release\Time.obj
+         Generating code
+         Finished generating code
+     1>OpenAL32.lib(dgnms00114.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00163.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00016.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00047.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00164.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00181.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00141.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00153.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00041.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00165.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00022.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00006.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>OpenAL32.lib(dgnms00180.o) : error LNK2026: module unsafe for SAFESEH image.
+     1>C:\Users\Charles\Desktop\C++ Projects\Projects\Bubbles\Release\Bubbles.exe : fatal error LNK1281: Unable to generate SAFESEH image.
+     1>Done Building Project "C:\Users\Charles\Desktop\C++ Projects\Projects\Bubbles\Bubbles\Bubbles.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.63
