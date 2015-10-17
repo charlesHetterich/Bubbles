@@ -7,4 +7,5 @@ Bubbles is my latest project. It originally started as an idea of jumping up bub
 #####Move Left: A
 #####Move Right: D
 #####Jump: Space
+#####Respawn player: R
 #####Place Planet: Left click
